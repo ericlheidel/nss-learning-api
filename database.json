@@ -1,205 +1,296 @@
 {
-	"users": [
-		{
-			"id": 1,
-			"name": "Michael Bluthe",
-			"email": "mbluthe12@yahoo.com",
-			"cohort": 55
-		},
-		{
-			"id": 2,
-			"name": "Charlie Day",
-			"email": "dayman111@hotmail.com",
-			"cohort": 67
-		},
-		{
-			"id": 3,
-			"name": "Dennis Reynolds",
-			"email": "goldengod5244@aol.com",
-			"cohort": 49
-		},
-		{
-			"id": 4,
-			"name": "Reba Metz",
-			"email": "rmetz333000@yahoo.com",
-			"cohort": 59
-		},
-		{
-			"id": 5,
-			"name": "Betty Farrell",
-			"email": "bettyfarrell1756@netscape.com",
-			"cohort": 65
-		},
-		{
-			"id": 6,
-			"name": "Kaela Howell",
-			"email": "kaelahowell09990@yahoo.com",
-			"cohort": 30
-		},
-		{
-			"id": 7,
-			"name": "Kyleigh West",
-			"email": "westie345678@netscape.com",
-			"cohort": 62
-		},
-		{
-			"id": 8,
-			"name": "Edwin Hammes",
-			"email": "hammertime0011@aol.com",
-			"cohort": 51
-		},
-		{
-			"id": 9,
-			"name": "Una Hettinger",
-			"email": "unareversecard@hotmail.com",
-			"cohort": 72
-		},
-		{
-			"id": 10,
-			"name": "Alysha Bechtelar",
-			"email": "betcha123456@hotmail.com",
-			"cohort": 80
-		}
-	],
-	"posts": [
-		{
-			"id": 1,
-			"userId": 5,
-			"topicId": 3,
-			"title": "CostCo",
-			"body": "I need to go to CostCo but I don't have a membership, can anybody take me? I'm paying well!",
-			"date": "2020-10-10",
-			"isLiked": false
-		},
-		{
-			"id": 2,
-			"userId": 9,
-			"topicId": 1,
-			"title": "Would love to catch up in person!",
-			"body": "Looking forward to class starting. Would anyone like to meetup in person before we get going?",
-			"date": "2023-12-12",
-			"isLiked": true
-		},
-		{
-			"id": 3,
-			"userId": 7,
-			"topicId": 2,
-			"title": "Stuck on Flexbox Zombies Chapter 6",
-			"body": "Can anybody give me a hand with Chapter 6 of Flexbox Zombies? It is dealing with flex-shrink.",
-			"date": "2023-12-20",
-			"isLiked": true
-		},
-		{
-			"id": 4,
-			"userId": 3,
-			"topicId": 4,
-			"title": "CSS",
-			"body": "Everybody should try Flexbox Zombies. It's a great learning tool!",
-			"date": "2022-05-16",
-			"isLiked": false
-		},
-		{
-			"id": 5,
-			"userId": 6,
-			"topicId": 3,
-			"title": "Car trouble",
-			"body": "Does anyone know where I can get a cheap catalytic converter for a 1986 Bronco II?",
-			"date": "2020-02-02",
-			"isLiked": true
-		},
-		{
-			"id": 6,
-			"userId": 10,
-			"topicId": 1,
-			"title": "How's everyone doing?",
-			"body": "It's been a few weeks since I finished my cohort. I was wondering how everyone is doing now? Are you finished? If not, where are you in your curriculum.",
-			"date": "2023-06-06",
-			"isLiked": false
-		},
-		{
-			"id": 7,
-			"userId": 4,
-			"topicId": 4,
-			"title": "HTML",
-			"body": "What is a DOCTYPE ?!?!?!?",
-			"date": "2021-12-25",
-			"isLiked": false
-		},
-		{
-			"id": 8,
-			"userId": 2,
-			"topicId": 4,
-			"title": "More CSS practice please!",
-			"body": "Can anybody recommend more exercises like Flexbox Frogs and Flexbox Zombies? Thanks in advance!",
-			"date": "2023-05-07",
-			"isLiked": true
-		},
-		{
-			"id": 9,
-			"userId": 1,
-			"topicId": 3,
-			"title": "HDD vs SSD",
-			"body": "Can anyone recommend which type of hard drive I should buy and why? I need an extra 12TB of storage space with a fast read/write speed. Thanks!",
-			"date": "2022-08-08",
-			"isLiked": false
-		},
-		{
-			"id": 10,
-			"userId": 8,
-			"topicId": 2,
-			"title": "Having trouble on 'Learning Moments'",
-			"body": "I'm having trouble in book 5 getting started on 'Learning Moments.' Is anybody available to help?",
-			"date": "2023-12-15",
-			"isLiked": true
-		}
-	],
-	"topics": [
-		{
-			"id": 1,
-			"postId": "",
-			"name": "Catching Up"
-		},
-		{
-			"id": 2,
-			"postId": "",
-			"name": "Assistance Needed"
-		},
-		{
-			"id": 3,
-			"postId": "",
-			"name": "General"
-		},
-		{
-			"id": 4,
-			"postId": "",
-			"name": "HTML/CSS/JS/React"
-		}
-	],
-	"likes": [
-		{
-			"id": 1,
-			"userId": 10,
-			"postId": 1
-		},
-		{
-			"id": 2,
-			"userId": 9,
-			"postId": 1
-		},
-		{
-			"id": 3,
-			"userId": 8,
-			"postId": 2
-		},
-		{
-			"id": 4,
-			"userId": 7,
-			"postId": 2
-		},
-		{
-			"id": 5,
-			"userId": 6,
-			"postId": 3
-		}
-	]
+  "users": [
+    {
+      "id": 1,
+      "name": "Michael Bluthe",
+      "email": "mbluthe12@yahoo.com",
+      "cohort": 55
+    },
+    {
+      "id": 2,
+      "name": "Charlie Day",
+      "email": "dayman111@hotmail.com",
+      "cohort": 67
+    },
+    {
+      "id": 3,
+      "name": "Dennis Reynolds",
+      "email": "goldengod5244@aol.com",
+      "cohort": 49
+    },
+    {
+      "id": 4,
+      "name": "Reba Metz",
+      "email": "rmetz333000@yahoo.com",
+      "cohort": 59
+    },
+    {
+      "id": 5,
+      "name": "Betty Farrell",
+      "email": "bettyfarrell1756@netscape.com",
+      "cohort": 65
+    },
+    {
+      "id": 6,
+      "name": "Kaela Howell",
+      "email": "kaelahowell09990@yahoo.com",
+      "cohort": 30
+    },
+    {
+      "id": 7,
+      "name": "Kyleigh West",
+      "email": "westie345678@netscape.com",
+      "cohort": 62
+    },
+    {
+      "id": 8,
+      "name": "Edwin Hammes",
+      "email": "hammertime0011@aol.com",
+      "cohort": 51
+    },
+    {
+      "id": 9,
+      "name": "Una Hettinger",
+      "email": "unareversecard@hotmail.com",
+      "cohort": 72
+    },
+    {
+      "id": 10,
+      "name": "Alysha Bechtelar",
+      "email": "betcha123456@hotmail.com",
+      "cohort": 80
+    },
+    {
+      "email": "bucee312@netlandscape.org",
+      "fullName": "Buck Issest",
+      "cohort": 99,
+      "id": 11
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 5,
+      "topicId": 3,
+      "title": "CostCo",
+      "body": "I need to go to CostCo but I don't have a membership, can anybody take me? I'm paying well!",
+      "date": "2020-10-10",
+      "isLiked": false
+    },
+    {
+      "id": 2,
+      "userId": 9,
+      "topicId": 1,
+      "title": "Would love to catch up in person!",
+      "body": "Looking forward to class starting. Would anyone like to meetup in person before we get going?",
+      "date": "2023-12-12",
+      "isLiked": true
+    },
+    {
+      "id": 3,
+      "userId": 7,
+      "topicId": 2,
+      "title": "Stuck on Flexbox Zombies Chapter 6",
+      "body": "Can anybody give me a hand with Chapter 6 of Flexbox Zombies? It is dealing with flex-shrink.",
+      "date": "2023-12-20",
+      "isLiked": true
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "topicId": 4,
+      "title": "CSS",
+      "body": "Everybody should try Flexbox Zombies. It's a great learning tool!",
+      "date": "2022-05-16",
+      "isLiked": false
+    },
+    {
+      "id": 5,
+      "userId": 6,
+      "topicId": 3,
+      "title": "Car trouble",
+      "body": "Does anyone know where I can get a cheap catalytic converter for a 1986 Bronco II?",
+      "date": "2020-02-02",
+      "isLiked": true
+    },
+    {
+      "id": 6,
+      "userId": 10,
+      "topicId": 1,
+      "title": "How's everyone doing?",
+      "body": "It's been a few weeks since I finished my cohort. I was wondering how everyone is doing now? Are you finished? If not, where are you in your curriculum.",
+      "date": "2023-06-06",
+      "isLiked": false
+    },
+    {
+      "id": 7,
+      "userId": 4,
+      "topicId": 4,
+      "title": "HTML",
+      "body": "What is a DOCTYPE ?!?!?!?",
+      "date": "2021-12-25",
+      "isLiked": false
+    },
+    {
+      "id": 8,
+      "userId": 2,
+      "topicId": 4,
+      "title": "More CSS practice please!",
+      "body": "Can anybody recommend more exercises like Flexbox Frogs and Flexbox Zombies? Thanks in advance!",
+      "date": "2023-05-07",
+      "isLiked": true
+    },
+    {
+      "id": 9,
+      "userId": 1,
+      "topicId": 3,
+      "title": "HDD vs SSD",
+      "body": "Can anyone recommend which type of hard drive I should buy and why? I need an extra 12TB of storage space with a fast read/write speed. Thanks!",
+      "date": "2022-08-08",
+      "isLiked": false
+    },
+    {
+      "id": 10,
+      "userId": 8,
+      "topicId": 2,
+      "title": "Having trouble on 'Learning Moments'",
+      "body": "I'm having trouble in book 5 getting started on 'Learning Moments.' Is anybody available to help?",
+      "date": "2023-12-15",
+      "isLiked": true
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "postId": "",
+      "name": "Catching Up"
+    },
+    {
+      "id": 2,
+      "postId": "",
+      "name": "Assistance Needed"
+    },
+    {
+      "id": 3,
+      "postId": "",
+      "name": "General"
+    },
+    {
+      "id": 4,
+      "postId": "",
+      "name": "HTML/CSS/JS/React"
+    }
+  ],
+  "likes": [
+    {
+      "id": 1,
+      "userId": 10,
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "userId": 9,
+      "postId": 1
+    },
+    {
+      "id": 3,
+      "userId": 8,
+      "postId": 2
+    },
+    {
+      "id": 4,
+      "userId": 7,
+      "postId": 2
+    },
+    {
+      "id": 5,
+      "userId": 6,
+      "postId": 3
+    },
+    {
+      "id": 6,
+      "userId": 2,
+      "postId": 3
+    },
+    {
+      "id": 7,
+      "userId": 2,
+      "postId": 1
+    },
+    {
+      "userId": 2,
+      "postId": 5,
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "postId": 4,
+      "id": 9
+    },
+    {
+      "userId": 2,
+      "postId": 9,
+      "id": 10
+    },
+    {
+      "userId": 5,
+      "postId": 1,
+      "id": 11
+    },
+    {
+      "userId": 5,
+      "postId": 2,
+      "id": 12
+    },
+    {
+      "userId": 5,
+      "postId": 3,
+      "id": 13
+    },
+    {
+      "userId": 5,
+      "postId": 1,
+      "id": 14
+    },
+    {
+      "userId": 5,
+      "postId": 1,
+      "id": 15
+    },
+    {
+      "userId": 5,
+      "postId": 1,
+      "id": 16
+    },
+    {
+      "userId": 5,
+      "postId": 2,
+      "id": 17
+    },
+    {
+      "userId": 5,
+      "postId": 10,
+      "id": 18
+    },
+    {
+      "userId": 5,
+      "postId": 10,
+      "id": 19
+    },
+    {
+      "userId": 5,
+      "postId": 10,
+      "id": 20
+    },
+    {
+      "userId": 5,
+      "postId": 10,
+      "id": 21
+    },
+    {
+      "userId": 5,
+      "postId": 10,
+      "id": 22
+    }
+  ]
 }
