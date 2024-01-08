@@ -71,11 +71,10 @@
     {
       "id": 1,
       "userId": 5,
-      "topicId": 3,
-      "title": "CostCo",
-      "body": "I need to go to CostCo but I don't have a membership, can anybody take me? I'm paying well!",
-      "date": "2020-10-10",
-      "isLiked": false
+      "topicId": 0,
+      "title": "Need help with localhost!!",
+      "body": "How do I know which port number to use?!? Is it important? Can I use any number I want??",
+      "date": "2020-10-10"
     },
     {
       "id": 2,
@@ -83,8 +82,7 @@
       "topicId": 1,
       "title": "Would love to catch up in person!",
       "body": "Looking forward to class starting. Would anyone like to meetup in person before we get going?",
-      "date": "2023-12-12",
-      "isLiked": true
+      "date": "2023-12-12"
     },
     {
       "id": 3,
@@ -92,8 +90,7 @@
       "topicId": 2,
       "title": "Stuck on Flexbox Zombies Chapter 6",
       "body": "Can anybody give me a hand with Chapter 6 of Flexbox Zombies? It is dealing with flex-shrink.",
-      "date": "2023-12-20",
-      "isLiked": true
+      "date": "2023-12-20"
     },
     {
       "id": 4,
@@ -101,8 +98,7 @@
       "topicId": 4,
       "title": "CSS",
       "body": "Everybody should try Flexbox Zombies. It's a great learning tool!",
-      "date": "2022-05-16",
-      "isLiked": false
+      "date": "2022-05-16"
     },
     {
       "id": 5,
@@ -110,8 +106,7 @@
       "topicId": 3,
       "title": "Car trouble",
       "body": "Does anyone know where I can get a cheap catalytic converter for a 1986 Bronco II?",
-      "date": "2020-02-02",
-      "isLiked": true
+      "date": "2020-02-02"
     },
     {
       "id": 6,
@@ -119,8 +114,7 @@
       "topicId": 1,
       "title": "How's everyone doing?",
       "body": "It's been a few weeks since I finished my cohort. I was wondering how everyone is doing now? Are you finished? If not, where are you in your curriculum.",
-      "date": "2023-06-06",
-      "isLiked": false
+      "date": "2023-06-06"
     },
     {
       "id": 7,
@@ -128,8 +122,7 @@
       "topicId": 4,
       "title": "HTML",
       "body": "What is a DOCTYPE ?!?!?!?",
-      "date": "2021-12-25",
-      "isLiked": false
+      "date": "2021-12-25"
     },
     {
       "id": 8,
@@ -137,8 +130,7 @@
       "topicId": 4,
       "title": "More CSS practice please!",
       "body": "Can anybody recommend more exercises like Flexbox Frogs and Flexbox Zombies? Thanks in advance!",
-      "date": "2023-05-07",
-      "isLiked": true
+      "date": "2023-05-07"
     },
     {
       "id": 9,
@@ -146,8 +138,7 @@
       "topicId": 3,
       "title": "HDD vs SSD",
       "body": "Can anyone recommend which type of hard drive I should buy and why? I need an extra 12TB of storage space with a fast read/write speed. Thanks!",
-      "date": "2022-08-08",
-      "isLiked": false
+      "date": "2022-08-08"
     },
     {
       "id": 10,
@@ -155,8 +146,7 @@
       "topicId": 2,
       "title": "Having trouble on 'Learning Moments'",
       "body": "I'm having trouble in book 5 getting started on 'Learning Moments.' Is anybody available to help?",
-      "date": "2023-12-15",
-      "isLiked": true
+      "date": "2023-12-15"
     }
   ],
   "topics": [
@@ -239,17 +229,17 @@
     },
     {
       "userId": 5,
-      "postId": 2,
+      "postId": 1,
       "id": 12
     },
     {
       "userId": 5,
-      "postId": 3,
+      "postId": 1,
       "id": 13
     },
     {
       "userId": 5,
-      "postId": 1,
+      "postId": 2,
       "id": 14
     },
     {
@@ -259,7 +249,7 @@
     },
     {
       "userId": 5,
-      "postId": 1,
+      "postId": 2,
       "id": 16
     },
     {
@@ -269,28 +259,263 @@
     },
     {
       "userId": 5,
-      "postId": 10,
+      "postId": 2,
       "id": 18
     },
     {
       "userId": 5,
-      "postId": 10,
+      "postId": 1,
       "id": 19
     },
     {
       "userId": 5,
-      "postId": 10,
+      "postId": 1,
       "id": 20
     },
     {
       "userId": 5,
-      "postId": 10,
+      "postId": 2,
       "id": 21
     },
     {
       "userId": 5,
-      "postId": 10,
+      "postId": 2,
       "id": 22
+    },
+    {
+      "userId": 5,
+      "postId": 2,
+      "id": 23
+    },
+    {
+      "userId": 5,
+      "postId": 5,
+      "id": 24
+    },
+    {
+      "userId": 5,
+      "postId": 5,
+      "id": 25
+    },
+    {
+      "userId": 5,
+      "postId": 5,
+      "id": 26
+    },
+    {
+      "userId": 5,
+      "postId": 5,
+      "id": 27
+    },
+    {
+      "userId": 5,
+      "postId": 5,
+      "id": 28
+    },
+    {
+      "userId": 5,
+      "postId": 5,
+      "id": 29
+    },
+    {
+      "userId": 5,
+      "postId": 1,
+      "id": 30
+    },
+    {
+      "userId": 5,
+      "postId": 1,
+      "id": 31
+    },
+    {
+      "userId": 5,
+      "postId": 1,
+      "id": 32
+    },
+    {
+      "userId": 5,
+      "postId": 1,
+      "id": 33
+    },
+    {
+      "userId": 5,
+      "postId": 7,
+      "id": 34
+    },
+    {
+      "userId": 5,
+      "postId": 7,
+      "id": 35
+    },
+    {
+      "userId": 5,
+      "postId": 7,
+      "id": 36
+    },
+    {
+      "userId": 5,
+      "postId": 7,
+      "id": 37
+    },
+    {
+      "userId": 5,
+      "postId": 7,
+      "id": 38
+    },
+    {
+      "userId": 5,
+      "postId": 2,
+      "id": 39
+    },
+    {
+      "userId": 5,
+      "postId": 2,
+      "id": 40
+    },
+    {
+      "userId": 5,
+      "postId": 4,
+      "id": 41
+    },
+    {
+      "userId": 5,
+      "postId": 4,
+      "id": 42
+    },
+    {
+      "userId": 5,
+      "postId": 4,
+      "id": 43
+    },
+    {
+      "userId": 5,
+      "postId": 4,
+      "id": 44
+    },
+    {
+      "userId": 5,
+      "postId": 4,
+      "id": 45
+    },
+    {
+      "userId": 5,
+      "postId": 4,
+      "id": 46
+    },
+    {
+      "userId": 5,
+      "postId": 10,
+      "id": 47
+    },
+    {
+      "userId": 5,
+      "postId": 1,
+      "id": 48
+    },
+    {
+      "userId": 5,
+      "postId": 2,
+      "id": 49
+    },
+    {
+      "userId": 5,
+      "postId": 3,
+      "id": 50
+    },
+    {
+      "userId": 5,
+      "postId": 4,
+      "id": 51
+    },
+    {
+      "userId": 5,
+      "postId": 3,
+      "id": 52
+    },
+    {
+      "userId": 5,
+      "postId": 3,
+      "id": 53
+    },
+    {
+      "userId": 5,
+      "postId": 1,
+      "id": 54
+    },
+    {
+      "userId": 5,
+      "postId": 5,
+      "id": 55
+    },
+    {
+      "userId": 5,
+      "postId": 6,
+      "id": 56
+    },
+    {
+      "userId": 5,
+      "postId": 9,
+      "id": 57
+    },
+    {
+      "userId": 5,
+      "postId": 2,
+      "id": 58
+    },
+    {
+      "userId": 5,
+      "postId": 2,
+      "id": 59
+    },
+    {
+      "userId": 5,
+      "postId": 2,
+      "id": 60
+    },
+    {
+      "userId": 5,
+      "postId": 2,
+      "id": 61
+    },
+    {
+      "userId": 5,
+      "postId": 3,
+      "id": 62
+    },
+    {
+      "userId": 5,
+      "postId": 3,
+      "id": 63
+    },
+    {
+      "userId": 5,
+      "postId": 3,
+      "id": 64
+    },
+    {
+      "userId": 5,
+      "postId": 3,
+      "id": 65
+    },
+    {
+      "userId": 5,
+      "postId": 10,
+      "id": 66
+    },
+    {
+      "userId": 5,
+      "postId": 10,
+      "id": 67
+    },
+    {
+      "userId": 5,
+      "postId": 10,
+      "id": 68
+    },
+    {
+      "userId": 5,
+      "postId": 10,
+      "id": 69
     }
   ]
 }
