@@ -71,7 +71,7 @@
     {
       "id": 1,
       "userId": 5,
-      "topicId": 0,
+      "topicId": 2,
       "title": "Need help with localhost!!",
       "body": "How do I know which port number to use?!? Is it important? Can I use any number I want??",
       "date": "2020-10-10"
@@ -125,14 +125,6 @@
       "date": "2021-12-25"
     },
     {
-      "id": 8,
-      "userId": 2,
-      "topicId": 4,
-      "title": "More CSS practice please!",
-      "body": "Can anybody recommend more exercises like Flexbox Frogs and Flexbox Zombies? Thanks in advance!",
-      "date": "2023-05-07"
-    },
-    {
       "id": 9,
       "userId": 1,
       "topicId": 3,
@@ -147,27 +139,71 @@
       "title": "Having trouble on 'Learning Moments'",
       "body": "I'm having trouble in book 5 getting started on 'Learning Moments.' Is anybody available to help?",
       "date": "2023-12-15"
+    },
+    {
+      "userId": 5,
+      "topicId": 4,
+      "title": "React Meetup",
+      "body": "Is anybody interested in a coffee house meetup to practice our React and JSX skills?",
+      "date": "2024-01-09",
+      "id": 11
+    },
+    {
+      "userId": 5,
+      "topicId": 3,
+      "title": "TV for sale!",
+      "body": "Sony 55\" UHD TV for $250",
+      "date": "2024-01-09",
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "topicId": 4,
+      "title": "React & JSX",
+      "body": "Would anyone be interested in a React and JSX meetup practice session?",
+      "date": "2024-01-09",
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "topicId": 3,
+      "title": "Just saying hello to everyone!",
+      "body": "HELLLO!!!",
+      "date": "2024-01-09",
+      "id": 14
+    },
+    {
+      "id": 15,
+      "userId": 2,
+      "topicId": 3,
+      "title": "Testing to see if this post shows up as \"id\": 8",
+      "body": "It showed up as \"id\": 15",
+      "date": "2024-01-09"
+    },
+    {
+      "userId": 2,
+      "topicId": 4,
+      "title": "React Kudos!",
+      "body": "I think I might be getting this a little more!",
+      "date": "2024-01-09",
+      "id": 16
     }
   ],
   "topics": [
     {
       "id": 1,
-      "postId": "",
       "name": "Catching Up"
     },
     {
       "id": 2,
-      "postId": "",
       "name": "Assistance Needed"
     },
     {
       "id": 3,
-      "postId": "",
       "name": "General"
     },
     {
       "id": 4,
-      "postId": "",
       "name": "HTML/CSS/JS/React"
     }
   ],
@@ -516,6 +552,186 @@
       "userId": 5,
       "postId": 10,
       "id": 69
+    },
+    {
+      "userId": 2,
+      "postId": 5,
+      "id": 70
+    },
+    {
+      "userId": 2,
+      "postId": 5,
+      "id": 71
+    },
+    {
+      "userId": 2,
+      "postId": 5,
+      "id": 72
+    },
+    {
+      "userId": 2,
+      "postId": 5,
+      "id": 73
+    },
+    {
+      "userId": 2,
+      "postId": 5,
+      "id": 74
+    },
+    {
+      "userId": 2,
+      "postId": 5,
+      "id": 75
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 76
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 77
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 78
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 79
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 80
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 81
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 82
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 83
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 84
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 85
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 86
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 87
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 88
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 89
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 90
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 91
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 92
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 93
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 94
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 95
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 96
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 97
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 98
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 99
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 100
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 101
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 102
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 103
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 104
+    },
+    {
+      "userId": 2,
+      "postId": 14,
+      "id": 105
     }
   ]
 }
