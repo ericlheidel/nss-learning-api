@@ -181,12 +181,12 @@
       "date": "2024-01-09"
     },
     {
+      "id": 16,
       "userId": 2,
       "topicId": 4,
       "title": "React Kudos!",
-      "body": "I think I might be getting this a little more!",
-      "date": "2024-01-09",
-      "id": 16
+      "body": "I think I might be getting this a little more! 😃",
+      "date": "2024-01-09"
     }
   ],
   "topics": [
@@ -234,11 +234,6 @@
       "postId": 3
     },
     {
-      "id": 6,
-      "userId": 2,
-      "postId": 3
-    },
-    {
       "id": 7,
       "userId": 2,
       "postId": 1
@@ -247,11 +242,6 @@
       "userId": 2,
       "postId": 5,
       "id": 8
-    },
-    {
-      "userId": 2,
-      "postId": 4,
-      "id": 9
     },
     {
       "userId": 2,
@@ -717,16 +707,6 @@
       "userId": 2,
       "postId": 14,
       "id": 102
-    },
-    {
-      "userId": 2,
-      "postId": 14,
-      "id": 103
-    },
-    {
-      "userId": 2,
-      "postId": 14,
-      "id": 104
     },
     {
       "userId": 2,
